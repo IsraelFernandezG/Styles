@@ -1,0 +1,26 @@
+.animacion-izquierda-derecha {
+  animation: izquierda-derecha;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.animacion-derecha-izquierda {
+  animation: derecha-izquierda;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+@keyframes izquierda-derecha {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes derecha-izquierda {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
