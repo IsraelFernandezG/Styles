@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body {
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -74,10 +77,20 @@ body {
     --tl: -50% 50%;
 }
 
+.custom-li:nth-of-type(2):hover {
+  --bg: #032a38;
+  cursor: pointer;
+}
+
 .custom-li:nth-of-type(3) {
     --bg: #001e29;
     --ga: 14 / 27 / 22 / 35;
     --tl: -50% -50%;
+}
+
+.custom-li:nth-of-type(3):hover {
+  --bg: #032a38;
+  cursor: pointer;
 }
 
 .custom-li:nth-of-type(4) {
@@ -198,6 +211,11 @@ body {
     .custom-ol p {
         font-size: 0.7rem;
     }
+
+    .logo {
+        width: 3.5em;
+    }
+}
 
     .logo {
         width: 3.5em;
