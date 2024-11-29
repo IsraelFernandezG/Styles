@@ -194,32 +194,46 @@ body {
 }
 
 @media (max-width: 750px) {
+    .aurea-container {
+        height: 100vh;
+        background-color: #001e29;
+      }
     .custom-ol p {
         font-size: 1rem;
     }
 
+
     .logo-aura {
-        width: 6em;
+        width: 5em;
+        display: none;
     }
+
+    .aurea-logo-cont-mobile {
+        display: flex !important;
+        align-items:center;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+     }
+     
+     .logo-aura-mobile {
+         width: 9em;
+         margin-top: 5vh;
+         margin-bottom: 5vh;
+        
+     }
 }
 
 @media (max-width: 600px) {
-    body {
-        height: 100vh;
-        background-color: #001e29;
-      }
+    
     
     .custom-ol p {
         font-size: 0.7rem;
     }
 
-    .logo-aura {
-        width: 5em;
-    }
-
     .aurea-logo-cont-mobile {
         display: flex !important;
-        align-items:end;
+        align-items:center;
         justify-content: center;
         position: absolute;
         bottom: 5vh;
@@ -232,6 +246,8 @@ body {
          margin-bottom: 5vh;
         
      }
+
+   
 }
 
 @media (max-width: 480px) {
