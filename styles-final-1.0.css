@@ -231,17 +231,9 @@ body {
         font-size: 0.7rem;
     }
 
-    .aurea-logo-cont-mobile {
-        display: flex !important;
-        align-items:center;
-        justify-content: center;
-        position: absolute;
-        bottom: 5vh;
-        width: 100%;
-     }
-     
+
      .logo-aura-mobile {
-         width: 12em;
+         width: 10em;
          margin-top: 5vh;
          margin-bottom: 5vh;
         
